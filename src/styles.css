@@ -1,0 +1,33 @@
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Arial, sans-serif; }
+.container { max-width: 960px; margin: 0 auto; padding: 24px; }
+.error { color: #c62828; }
+.list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.card { display: flex; justify-content: space-between; align-items: center; padding: 16px; border: 1px solid #4443; border-radius: 12px; background: #fff1; }
+.btn { padding: 8px 12px; border: 1px solid #8885; border-radius: 8px; text-decoration: none; color: inherit; }
+.link { text-decoration: none; color: #1976d2; }
+.grid-2 { display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (min-width: 800px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
+.panel { padding: 16px; border: 1px solid #4443; border-radius: 12px; background: #fff1; }
+.posts { list-style: none; padding: 0; display: grid; gap: 12px; }
+.posts h3 { margin: 0 0 4px; font-size: 1rem; }
+.muted { opacity: 0.7; font-size: .9rem; }
+
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Arial, sans-serif; }
+.container { max-width: 960px; margin: 0 auto; padding: 24px; }
+.error { color: #c62828; }
+.list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.card { display: flex; justify-content: space-between; align-items: center; padding: 16px; border: 1px solid #4443; border-radius: 12px; background: #fff1; }
+.btn { padding: 8px 12px; border: 1px solid #8885; border-radius: 8px; text-decoration: none; color: inherit; }
+.link { text-decoration: none; color: #1976d2; }
+.grid-2 { display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (min-width: 800px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
+.panel { padding: 16px; border: 1px solid #4443; border-radius: 12px; background: #fff1; }
+.posts { list-style: none; padding: 0; display: grid; gap: 12px; }
+.posts h3 { margin: 0 0 4px; font-size: 1rem; }
+.muted { opacity: 0.7; font-size: .9rem; }
+
+
